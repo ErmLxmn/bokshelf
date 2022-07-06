@@ -60,21 +60,6 @@ function Header() {
             </li>
           </ul>
 
-          <ul className='menu2'>
-            <li className='icon'>
-              <a className='FB' href='#'>
-                <img src='./images/ICONS/FB.png'></img>
-              </a>
-
-              <a className='TW' href='#'>
-                <img src='./images/ICONS/TW.png'></img>
-              </a>
-
-              <a className='INS' href='#'>
-                <img src='./images/ICONS/INS.png'></img>
-              </a>
-            </li>
-          </ul>
           <ul style={{ clear: 'both' }}></ul>
         </nav>
       </div>

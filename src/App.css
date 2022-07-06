@@ -42,6 +42,7 @@
 body {
   margin: 0;
   background-color: light-gray;
+  display: grid;
 }
 header,
 footer {
@@ -190,12 +191,14 @@ nav ul.menu2 {
   margin: 0;
   padding: 0%;
 }
-.FB img:hover,
+
+/* .FB img:hover,
 .TW img:hover,
 .INS img:hover {
   border: 2px solid black;
   border-radius: 20px;
-}
+} */
+
 nav.nav1 div.banner {
   width: 100%;
 }
@@ -229,20 +232,17 @@ div.article2 div.book {
   float: left;
   display: block;
   text-align: center;
+  border-radius: 5px;
 }
 
 main {
   margin-top: 3%;
   width: 75%;
-  float: left;
-  display: block;
-  overflow: block;
 }
 aside {
   margin-left: 1%;
-  margin-top: 6%;
+  padding-top: 6%;
   width: 20%;
-  float: left;
   text-align: center;
   font-size: 100%;
   color: white;
@@ -262,15 +262,15 @@ main div.article2 div.book h1 {
   padding: 30% 20%;
 }
 
-main div.article2 div.book {
+/* main div.article2 div.book {
   margin-top: 5%;
   margin-bottom: 10%;
-}
+} */
 main div.article2 div.book:hover {
   background-color: black;
   color: white;
   box-shadow: 10px 10px 10px #000000;
-  border: 1px solid #ddd;
+  border: none;
 }
 main div.article2 div.book:hover p {
   color: orange;
@@ -493,7 +493,6 @@ div.article2 div.book a.content1 img {
   color: black;
   font-family: impact;
   font-size: 25px;
-  text-align: center;
 }
 
 .seller2 {
@@ -502,7 +501,6 @@ div.article2 div.book a.content1 img {
   font-family: calibri;
   font-weight: bold;
   font-size: 18px;
-  text-align: center;
 }
 
 a {
