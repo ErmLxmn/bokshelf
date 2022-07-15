@@ -13,7 +13,7 @@ function Home() {
           <HomeBook
             src='.\images\BOOKS\_READERS%20CHOICE\1A.jpg'
             title='DIARY OF A YOUNG GIRL'
-            author='Anne Frank'
+            author='Aljon Laxamana'
             link='\FINALS\WEBPAGE\diaryofayounggirl.html'
           />
           <HomeBook

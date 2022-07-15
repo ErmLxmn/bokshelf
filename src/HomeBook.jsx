@@ -1,6 +1,7 @@
 import React from 'react'
 
 function HomeBook(props) {
+  console.log(props)
   return (
     <div className='book'>
       <a className='content1' href={props.link}>
